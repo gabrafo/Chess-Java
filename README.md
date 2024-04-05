@@ -36,7 +36,7 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] System Design e Setup Inicial
 - [x] Primeira Classe: Position
 - [x] Criação do Tabuleiro e das Peças
-- [ ] Camada de Xadrez e Impressão do Tabuleiro
+- [x] Camada de Xadrez e Impressão do Tabuleiro
 - [ ] Colocando Peças no Tabuleiro
 - [ ] Exceções de Xadrez e Posição de Xadrez
 - [ ] Melhoria na Impressão do Tabuleiro
