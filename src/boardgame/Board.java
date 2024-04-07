@@ -35,4 +35,10 @@ public class Board {
     public Piece piece(Position position){
         return pieces[position.getRow()][position.getColumn()];
     }
+
+    public void placePiece(Piece piece, Position position){
+        pieces[position.getRow()][position.getColumn()] = piece; // Atribui à matriz de peças uma nova peça posicionada
+        piece.position = position; // Posição não é mais nula!
+        // Atributo position é livremente acessado por ter sido declarada no mesmo pacote que sua classe.
+    }
 }
