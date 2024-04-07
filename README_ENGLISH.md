@@ -37,8 +37,8 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] First Class: Position
 - [x] Board and Piece Creation
 - [x] Chess Layer and Board Printing
-- [ ] Placing Pieces on the Board
-- [ ] Chess Exceptions and Chess Position
+- [x] Placing Pieces on the Board
+- [x] Chess Exceptions and Chess Position
 - [ ] Board Printing Improvement
 - [ ] Moving Pieces
 - [ ] Possible Moves of a Piece
