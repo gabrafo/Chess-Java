@@ -59,8 +59,8 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 Para executar o projeto, clone este repositório e compile-o em um ambiente Java compatível. Certifique-se de ter o ambiente de desenvolvimento Java instalado em seu sistema.
 
 ```bash
-git clone https://github.com/acenelio/chess-system-java.git
-cd chess-system-java
+git clone https://github.com/gabrafo/chess-java.git
+cd chess-java
 javac Program.java
 java Program
 ```
