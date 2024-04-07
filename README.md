@@ -1,2 +1,66 @@
-# Chess-Java
-Projeto de jogo de xadrez desenvolvido durante meus aprendizados no curso de Java do professor Nélio Alves.
+# Projeto de Xadrez em Java 🇧🇷
+
+Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação Orientada a Objetos + Projetos" ministrado pelo Prof. Dr. Nélio Alves. O objetivo deste projeto é aplicar os conceitos aprendidos no curso para a construção de um sistema de jogo de xadrez em Java.
+
+## Fundamentos de Programação Utilizados
+
+### Java
+
+- Criação do projeto Java
+- Configuração do ambiente de desenvolvimento
+- Uso de estruturas de controle (if, else, loops)
+- Manipulação de exceções
+- Uso de coleções (List, etc.)
+- Trabalho com classes e objetos
+- Manipulação de Strings
+
+### Programação
+
+- Lógica de programação
+- Estruturas de dados (matrizes, listas)
+- Implementação de algoritmos
+
+### Programação Orientada a Objetos (POO)
+
+- Encapsulamento
+- Construtores
+- Herança
+- Polimorfismo
+- Abstração
+- Interfaces
+- Tratamento de exceções orientado a objetos
+- Princípios SOLID
+
+## Estrutura do Projeto
+
+- [x] System Design e Setup Inicial
+- [x] Primeira Classe: Position
+- [x] Criação do Tabuleiro e das Peças
+- [x] Camada de Xadrez e Impressão do Tabuleiro
+- [ ] Colocando Peças no Tabuleiro
+- [ ] Exceções de Xadrez e Posição de Xadrez
+- [ ] Melhoria na Impressão do Tabuleiro
+- [ ] Movendo Peças
+- [ ] Movimentos Possíveis de uma Peça
+- [ ] Implementação dos Movimentos Possíveis da Torre
+- [ ] Impressão dos Movimentos Possíveis
+- [ ] Implementação dos Movimentos Possíveis do Rei
+- [ ] Alternância de Jogadores
+- [ ] Manuseio de Peças Capturadas
+- [ ] Verificação de Xeque
+- [ ] Lógica de Xeque-Mate
+- [ ] Contagem de Movimentos de Peças
+- [ ] Peão, Bispo, Cavalo e Rainha
+- [ ] Movimentos Especiais - Roque
+- [ ] Movimentos Especiais - En Passant e Promoção
+
+## Como Executar
+
+Para executar o projeto, clone este repositório e compile-o em um ambiente Java compatível. Certifique-se de ter o ambiente de desenvolvimento Java instalado em seu sistema.
+
+```bash
+git clone https://github.com/acenelio/chess-system-java.git
+cd chess-system-java
+javac Program.java
+java Program
+```
