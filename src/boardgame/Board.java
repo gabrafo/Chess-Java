@@ -46,6 +46,19 @@ public class Board {
         // Atributo position é livremente acessado por ter sido declarada no mesmo pacote que sua classe.
     }
 
+    public Piece removePiece(Position position){
+        if(!positionExists(position)){
+            throw new BoardException("Position not on the board");
+        }
+        if(!thereIsAPiece(position)){
+            return null;
+        }
+        Piece aux = piece(position);
+        aux.position = null; // Peça retirada do tabuleiro por não ter mais posição
+        pieces[position.getRow()][position.getColumn()] = null; // Indica que não tem mais peça naquela posição na matriz
+        return aux; // Retorna a peça retirada
+    }
+
     private boolean positionExists(int row, int column){ // Método auxiliar
         return row >= 0 && row < rows && column >= 0 && column < columns; // Retorna se a posição pode, de fato, existir
     }

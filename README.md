@@ -40,7 +40,7 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] Colocando Peças no Tabuleiro
 - [x] Exceções de Xadrez e Posição de Xadrez
 - [x] Melhoria na Impressão do Tabuleiro
-- [ ] Movendo Peças
+- [x] Movendo Peças
 - [ ] Movimentos Possíveis de uma Peça
 - [ ] Implementação dos Movimentos Possíveis da Torre
 - [ ] Impressão dos Movimentos Possíveis

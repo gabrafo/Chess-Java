@@ -40,7 +40,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Placing Pieces on the Board
 - [x] Chess Exceptions and Chess Position
 - [x] Board Printing Improvement
-- [ ] Moving Pieces
+- [x] Moving Pieces
 - [ ] Possible Moves of a Piece
 - [ ] Implementing Possible Moves of Rook
 - [ ] Printing Possible Moves
