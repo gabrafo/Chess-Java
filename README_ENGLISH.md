@@ -41,7 +41,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Chess Exceptions and Chess Position
 - [x] Board Printing Improvement
 - [x] Moving Pieces
-- [ ] Possible Moves of a Piece
+- [x] Possible Moves of a Piece
 - [ ] Implementing Possible Moves of Rook
 - [ ] Printing Possible Moves
 - [ ] Implementing Possible Moves of King
