@@ -42,7 +42,7 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] Melhoria na Impressão do Tabuleiro
 - [x] Movendo Peças
 - [x] Movimentos Possíveis de uma Peça
-- [ ] Implementação dos Movimentos Possíveis da Torre
+- [x] Implementação dos Movimentos Possíveis da Torre
 - [ ] Impressão dos Movimentos Possíveis
 - [ ] Implementação dos Movimentos Possíveis do Rei
 - [ ] Alternância de Jogadores

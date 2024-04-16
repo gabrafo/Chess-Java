@@ -42,7 +42,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Board Printing Improvement
 - [x] Moving Pieces
 - [x] Possible Moves of a Piece
-- [ ] Implementing Possible Moves of Rook
+- [x] Implementing Possible Moves of Rook
 - [ ] Printing Possible Moves
 - [ ] Implementing Possible Moves of King
 - [ ] Switching Player Each Turn
