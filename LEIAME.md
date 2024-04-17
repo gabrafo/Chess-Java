@@ -48,7 +48,7 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] Alternância de Jogadores
 - [x] Manuseio de Peças Capturadas
 - [x] Verificação de Xeque
-- [ ] Lógica de Xeque-Mate
+- [x] Lógica de Xeque-Mate
 - [ ] Contagem de Movimentos de Peças
 - [ ] Peão, Bispo, Cavalo e Rainha
 - [ ] Movimentos Especiais - Roque

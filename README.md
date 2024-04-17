@@ -48,7 +48,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Switching Player Each Turn
 - [x] Handling Captured Pieces
 - [x] Check Logic
-- [ ] Checkmate Logic
+- [x] Checkmate Logic
 - [ ] Piece Move Count
 - [ ] Pawn, Bishop, Knight, Queen
 - [ ] Special Move - Castling
