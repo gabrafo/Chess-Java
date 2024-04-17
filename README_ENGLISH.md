@@ -45,7 +45,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Implementing Possible Moves of Rook
 - [x] Printing Possible Moves
 - [x] Implementing Possible Moves of King
-- [ ] Switching Player Each Turn
+- [x] Switching Player Each Turn
 - [ ] Handling Captured Pieces
 - [ ] Check Logic
 - [ ] Checkmate Logic
