@@ -43,7 +43,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Moving Pieces
 - [x] Possible Moves of a Piece
 - [x] Implementing Possible Moves of Rook
-- [ ] Printing Possible Moves
+- [x] Printing Possible Moves
 - [ ] Implementing Possible Moves of King
 - [ ] Switching Player Each Turn
 - [ ] Handling Captured Pieces

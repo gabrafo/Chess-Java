@@ -43,7 +43,7 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] Movendo Peças
 - [x] Movimentos Possíveis de uma Peça
 - [x] Implementação dos Movimentos Possíveis da Torre
-- [ ] Impressão dos Movimentos Possíveis
+- [x] Impressão dos Movimentos Possíveis
 - [ ] Implementação dos Movimentos Possíveis do Rei
 - [ ] Alternância de Jogadores
 - [ ] Manuseio de Peças Capturadas
