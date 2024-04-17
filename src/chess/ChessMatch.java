@@ -8,7 +8,7 @@ import chess.pieces.Rook;
 
 // Coração do sistema de xadrez
 public class ChessMatch {
-    private Board board;
+    private final Board board;
 
     public ChessMatch() {
         board = new Board(8,8); // É nessa classe que se diz a dimensão do tabuleiro
