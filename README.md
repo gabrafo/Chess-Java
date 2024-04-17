@@ -1,62 +1,62 @@
-# Projeto de Xadrez em Java 🇧🇷
+# Chess Project in Java 🇺🇸
 
-Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação Orientada a Objetos + Projetos" ministrado pelo Prof. Dr. Nélio Alves. O objetivo deste projeto é aplicar os conceitos aprendidos no curso para a construção de um sistema de jogo de xadrez em Java.
+This project was developed as part of the course "Java COMPLETO Programação Orientada a Objetos + Projetos" taught by Prof. Dr. Nélio Alves. The goal of this project is to apply the concepts learned in the course to build a chess game system in Java.
 
-## Fundamentos de Programação Utilizados
+## Programming Fundamentals Used
 
 ### Java
 
-- Criação do projeto Java
-- Configuração do ambiente de desenvolvimento
-- Uso de estruturas de controle (if, else, loops)
-- Manipulação de exceções
-- Uso de coleções (List, etc.)
-- Trabalho com classes e objetos
-- Manipulação de Strings
+- Java project creation
+- Development environment setup
+- Usage of control structures (if, else, loops)
+- Exception handling
+- Usage of collections (List, etc.)
+- Working with classes and objects
+- String manipulation
 
-### Programação
+### Programming
 
-- Lógica de programação
-- Estruturas de dados (matrizes, listas)
-- Implementação de algoritmos
+- Programming logic
+- Data structures (arrays, lists)
+- Algorithm implementation
 
-### Programação Orientada a Objetos (POO)
+### Object-Oriented Programming (OOP)
 
-- Encapsulamento
-- Construtores
-- Herança
-- Polimorfismo
-- Abstração
+- Encapsulation
+- Constructors
+- Inheritance
+- Polymorphism
+- Abstraction
 - Interfaces
-- Tratamento de exceções orientado a objetos
-- Princípios SOLID
+- Object-oriented exception handling
+- SOLID principles
 
-## Estrutura do Projeto
+## Project Structure
 
-- [x] System Design e Setup Inicial
-- [x] Primeira Classe: Position
-- [x] Criação do Tabuleiro e das Peças
-- [x] Camada de Xadrez e Impressão do Tabuleiro
-- [x] Colocando Peças no Tabuleiro
-- [x] Exceções de Xadrez e Posição de Xadrez
-- [x] Melhoria na Impressão do Tabuleiro
-- [x] Movendo Peças
-- [x] Movimentos Possíveis de uma Peça
-- [x] Implementação dos Movimentos Possíveis da Torre
-- [x] Impressão dos Movimentos Possíveis
-- [x] Implementação dos Movimentos Possíveis do Rei
-- [x] Alternância de Jogadores
-- [ ] Manuseio de Peças Capturadas
-- [ ] Verificação de Xeque
-- [ ] Lógica de Xeque-Mate
-- [ ] Contagem de Movimentos de Peças
-- [ ] Peão, Bispo, Cavalo e Rainha
-- [ ] Movimentos Especiais - Roque
-- [ ] Movimentos Especiais - En Passant e Promoção
+- [x] System Design and Initial Setup
+- [x] First Class: Position
+- [x] Board and Piece Creation
+- [x] Chess Layer and Board Printing
+- [x] Placing Pieces on the Board
+- [x] Chess Exceptions and Chess Position
+- [x] Board Printing Improvement
+- [x] Moving Pieces
+- [x] Possible Moves of a Piece
+- [x] Implementing Possible Moves of Rook
+- [x] Printing Possible Moves
+- [x] Implementing Possible Moves of King
+- [x] Switching Player Each Turn
+- [ ] Handling Captured Pieces
+- [ ] Check Logic
+- [ ] Checkmate Logic
+- [ ] Piece Move Count
+- [ ] Pawn, Bishop, Knight, Queen
+- [ ] Special Move - Castling
+- [ ] Special Move - En Passant and Promotion
 
-## Como Executar
+## How to Run
 
-Para executar o projeto, clone este repositório e compile-o em um ambiente Java compatível. Certifique-se de ter o ambiente de desenvolvimento Java instalado em seu sistema.
+To run the project, clone this repository and compile it in a Java compatible environment. Make sure you have the Java development environment installed on your system.
 
 ```bash
 git clone https://github.com/gabrafo/chess-java.git
