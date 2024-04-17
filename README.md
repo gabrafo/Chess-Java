@@ -49,7 +49,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Handling Captured Pieces
 - [x] Check Logic
 - [x] Checkmate Logic
-- [ ] Piece Move Count
+- [x] Piece Move Count
 - [ ] Pawn, Bishop, Knight, Queen
 - [ ] Special Move - Castling
 - [ ] Special Move - En Passant and Promotion
