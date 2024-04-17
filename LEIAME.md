@@ -51,8 +51,8 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] Lógica de Xeque-Mate
 - [x] Contagem de Movimentos de Peças
 - [x] Peão, Bispo, Cavalo e Rainha
-- [ ] Movimentos Especiais - Roque
-- [ ] Movimentos Especiais - En Passant e Promoção
+- [x] Movimentos Especiais - Roque
+- [x] Movimentos Especiais - En Passant e Promoção
 
 ## Como Executar
 
