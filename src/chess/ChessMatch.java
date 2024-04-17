@@ -8,12 +8,14 @@ import chess.pieces.Rook;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 // Coração do sistema de xadrez
 public class ChessMatch {
     private int turn;
     private Color currentPlayer;
     private final Board board;
+    private boolean check;
 
     // Automaticamente instanciadas quando um objeto ChessMatch for criado
     private List<Piece> piecesOnTheBoard = new ArrayList<>();
@@ -23,6 +25,7 @@ public class ChessMatch {
         board = new Board(8,8); // É nessa classe que se diz a dimensão do tabuleiro
         turn = 1;
         currentPlayer = Color.WHITE;
+        check = false; // Já recebe por padrão, estou apenas enfatizando
         initialSetup();
     }
 
@@ -32,6 +35,10 @@ public class ChessMatch {
 
     public Color getCurrentPlayer() {
         return currentPlayer;
+    }
+
+    public boolean getCheck(){
+        return check;
     }
 
     public ChessPiece[][] getPieces(){
@@ -67,6 +74,14 @@ public class ChessMatch {
         validateSourcePosition(source);
         validateTargetPosition(source, target);
         Piece capturedPiece = makeMove(source, target);
+
+        if(testCheck(currentPlayer)){
+            undoMove(source, target, capturedPiece);
+            throw new ChessException("You can't put yourself in check");
+        }
+
+        check = testCheck(opponent(currentPlayer));
+
         nextTurn();
         return (ChessPiece) capturedPiece;
     }
@@ -80,6 +95,17 @@ public class ChessMatch {
             capturedPieces.add(capturedPiece); // Adiciona à lista de peças capturadas
         }
         return capturedPiece;
+    }
+
+    private void undoMove(Position source, Position target, Piece capturedPiece){ // Desfaz o método makeMove
+        Piece p = board.removePiece(target);
+        board.placePiece(p, source);
+
+        if(capturedPiece!=null){
+            board.placePiece(capturedPiece, target);
+            capturedPieces.remove(capturedPiece);
+            piecesOnTheBoard.add(capturedPiece);
+        }
     }
 
     private void validateSourcePosition(Position position){
@@ -105,10 +131,40 @@ public class ChessMatch {
         currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK : Color.WHITE;
     }
 
+    private Color opponent(Color color){
+        return (color == Color.WHITE) ? Color.BLACK : Color.WHITE;
+    }
+
+    private ChessPiece king(Color color){
+        List<Piece> list = piecesOnTheBoard.stream().filter(x -> ((ChessPiece)x).getColor() == color).collect(Collectors.toList());
+        for(Piece p : list){
+            if(p instanceof King){
+                return (ChessPiece) p;
+            }
+        }
+        throw new IllegalStateException("There is no " + color + " king on the board."); // Essa exceção, teoricamente, nunca deve acontecer, por isso não é tratada
+    }
+
     private void placeNewPiece(char column, int row, ChessPiece piece){
         // Colocar peças informando coordenadas no sistema do xadrez e não a posição da matriz
         board.placePiece(piece, new ChessPosition(column, row).toPosition());
         piecesOnTheBoard.add(piece); // Adiciona a peça colocada na lista de peças no tabuleiro
+    }
+
+    // Para saber se tem cheque, tem varrer todas as peças adversárias e ver se há algum movimento que possa matar o rei
+    private boolean testCheck(Color color){
+        Position kingPosition = king(color).getChessPosition().toPosition();
+
+        // Pega a lista de peças do oponente
+        List<Piece> opponentPieces = piecesOnTheBoard.stream().filter(x -> ((ChessPiece)x).getColor() == opponent(color)).collect(Collectors.toList());
+
+        for(Piece p : opponentPieces){
+            boolean[][] mat = p.possibleMoves();
+            if(mat[kingPosition.getRow()][kingPosition.getColumn()]){
+                return true;
+            }
+        }
+        return false;
     }
 
     private void initialSetup(){ // Método responsável por iniciar a partida de xadrez, colocando as peças

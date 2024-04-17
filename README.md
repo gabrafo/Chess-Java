@@ -46,8 +46,8 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Printing Possible Moves
 - [x] Implementing Possible Moves of King
 - [x] Switching Player Each Turn
-- [ ] Handling Captured Pieces
-- [ ] Check Logic
+- [x] Handling Captured Pieces
+- [x] Check Logic
 - [ ] Checkmate Logic
 - [ ] Piece Move Count
 - [ ] Pawn, Bishop, Knight, Queen

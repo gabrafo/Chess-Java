@@ -13,6 +13,10 @@ public abstract class ChessPiece extends Piece {
         this.color = color;
     }
 
+    public ChessPosition getChessPosition(){
+        return ChessPosition.frompPosition(position);
+    }
+
     // Color não tem set porque não é pra poder ser alterada
     public Color getColor() {
         return color;

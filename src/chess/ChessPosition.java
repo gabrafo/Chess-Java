@@ -37,7 +37,7 @@ public class ChessPosition {
     protected static ChessPosition frompPosition(Position position){
         // Método para transformar de posição no tabuleiro p/ posição na matriz
 
-        return new ChessPosition((char)('a' - position.getColumn()), 8 - position.getRow());
+        return new ChessPosition((char)('a' + position.getColumn()), 8 - position.getRow());
     }
 
     @Override
