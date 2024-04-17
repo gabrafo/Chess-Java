@@ -50,7 +50,7 @@ Este projeto foi desenvolvido como parte do curso "Java COMPLETO Programação O
 - [x] Verificação de Xeque
 - [x] Lógica de Xeque-Mate
 - [x] Contagem de Movimentos de Peças
-- [ ] Peão, Bispo, Cavalo e Rainha
+- [x] Peão, Bispo, Cavalo e Rainha
 - [ ] Movimentos Especiais - Roque
 - [ ] Movimentos Especiais - En Passant e Promoção
 

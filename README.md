@@ -50,7 +50,7 @@ This project was developed as part of the course "Java COMPLETO Programação Or
 - [x] Check Logic
 - [x] Checkmate Logic
 - [x] Piece Move Count
-- [ ] Pawn, Bishop, Knight, Queen
+- [x] Pawn, Bishop, Knight, Queen
 - [ ] Special Move - Castling
 - [ ] Special Move - En Passant and Promotion
 
